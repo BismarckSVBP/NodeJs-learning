@@ -1,0 +1,16 @@
+
+lec-6
+
+thread used by the node js is by default is 4
+ you can increse the size of thread pool but not more than available no of cores
+
+
+ to check core --
+
+ 
+const operatingsystem = require('os');
+
+console.log(operatingsystem.cpus().length);
+
+
+it will provide no. of cores
