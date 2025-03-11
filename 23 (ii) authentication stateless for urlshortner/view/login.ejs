@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      body {
+        background-image: url(WhatsApp\ Image\ 2024-05-31\ at\ 14.31.49_28d27a8f.jpg);
+      }
+      .outer {
+        width: 500px;
+        margin: auto;
+      }
+      .login {
+        border: 1px solid black;
+        width: 400px;
+        height: 550px;
+        background: url(WhatsApp\ Image\ 2024-05-31\ at\ 14.45.33_39c3af8a.jpg);
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+      }
+      form {
+        display: block;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 100%;
+        backdrop-filter: brightness(40%);
+        flex-direction: column;
+        display: flex;
+        gap: 5px;
+      }
+      h1 {
+        font-weight: normal;
+        font-size: 24px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        margin-bottom: 60px;
+      }
+      label {
+        color: rgba(255, 255, 255, 0.8);
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding-left: 10px;
+      }
+      input {
+        background: rgba(255, 255, 255, 0.3);
+        height: 40px;
+        line-height: 40px;
+        border-radius: 20px;
+        padding: 0px 20px;
+        border: none;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      button {
+        background: rgb(45, 126, 231);
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+        border: none;
+        margin: 10px 0px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+
+  <body>
+  </div>
+  <% if (locals.id) { %>
+ <%= id %></p>
+  <% } %>
+
+  <div>
+    <div class="outer">
+      <div class="login">
+        <form method="POST" action="/login/i">
+          <h1>login</h1>
+          <!-- <label>UserID</label>
+          <input type="text" name="id" /> -->
+          <label>Username</label>
+          <input type="text" name="username" />
+          <label>Email-ID</label>
+          <input type="email" name="emailID" />
+          <label>Password</label>
+          <input type="password" name="password" />
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
