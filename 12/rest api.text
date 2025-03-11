@@ -1,0 +1,20 @@
+rest api or rest full api is same thing 
+
+rest full api is a representational state in  which their are a sets of some rule(standard paractices) is defined for it
+
+their are some standard paractices which should be followed by request and response is provided by restfull api
+
+rule-1 restfull api works on server client architecture 
+rule-2 Restfull api follow(respect) the http methods 
+
+
+
+we use response.end in http (use basic)
+we use response.render to render anything
+we use response.send in express
+we use response.json for creating a json server 
+
+when json file is rendering that is client side rendering which is slower .it is done by react
+
+
+server side rendering is fast the data is rendered as data comes on client

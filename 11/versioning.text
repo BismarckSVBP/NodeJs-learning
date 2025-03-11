@@ -1,0 +1,37 @@
+//version  
+
+// 
+4.19.2
+
+1st part -> 4
+2nd part -> 19
+3rd part -> 2
+
+
+// 3rd part(Last part) -> Minor fixes (optional)
+latest -> 2
+
+//2nd part -> Recommended Bug Fix (security Fix)
+latest -> 19
+
+//1st part -> major release/breaking update
+latest-> 4
+
+
+command for version
+
+npm install express@4.12.5
+
+
+express = ^4.19.2  -> install all Recommended & Minor changes automatically
+
+for -> 4.19.2< version <5.0.0
+
+4 will not change but install the latest express version
+
+
+express = ~4.19.2
+
+for ->  4.19.2< version <4.19.99 
+
+~4.20 .2-> not possible

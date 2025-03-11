@@ -1,0 +1,14 @@
+
+{
+  "name": "piyushgarg",
+  "version": "1.0.0",
+  "main": "filye.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node filye"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

@@ -1,0 +1,14 @@
+{
+  "name": "13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "project-01.js",
+  "scripts": {
+    "start" : "project-01.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

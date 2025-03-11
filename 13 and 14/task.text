@@ -1,0 +1,34 @@
+REST API
+
+
+GET /users - HTML DOCUMENT render -> for browser 
+GET /api/users - list all users json - > for other device
+
+GET /users/1 - get the user with the id 1 -> for browser 
+GET /api/users/1 - get the user with the id 1 - > for other device
+
+
+Dynamic path parameters
+
+GET /api/users/:id
+:id -> Variable | Dynamic 
+
+
+
+
+GET /users/2 - get the user with the id 2 -> for browser 
+GET /api/users/2 - get the user with the id 2 - > for other device
+
+
+POST /users - Create new user  -> for browser 
+POST /api/users - Create new user  - > for other device
+
+PATCH /users/1 - Edit the user with the id 1 -> for browser 
+PATCH /api/users/1 - Edit the user with the id 1 - > for other device
+
+
+DELETE /users/1 - delete the user with the id 1 -> for browser 
+DELETE /api/users/1 - delete the user with the id 1 - > for other device
+
+
+for rendering data we use -> Mockaroo.com
